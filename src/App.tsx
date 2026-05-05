@@ -15,11 +15,13 @@ import {
   X, 
   User,
   Star,
-  Clock
+  Clock,
+  AlertTriangle
 } from 'lucide-react';
 
 // Constants
 const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=%2B5597984298383&text&type=phone_number&app_absent=0&utm_source=ig";
+const SUPPORT_WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=%2B5597984242329&text&type=phone_number&app_absent=0&utm_source=ig";
 const INSTAGRAM_URL = "https://www.instagram.com/lucastatuador_ofc/";
 const MAPS_URL = "https://www.google.com/maps/place/Lucas+tatuador/@-7.0503521,-71.6873997,46m/data=!3m1!1e3!4m6!3m5!1s0x9190c70012c47cf1:0xb046dc27cfe55776!8m2!3d-7.0503291!4d-71.6874459!16s%2Fg%2F11zhvd6466?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D";
 
@@ -50,9 +52,69 @@ const GALLERY_IMAGES = [
 
 export default function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [isMaintenanceMode] = useState(true);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-orange-500 selection:text-white">
+    <div className="min-h-screen bg-[#0a0a0a] text-white font-sans selection:bg-orange-500 selection:text-white relative">
+      {/* Maintenance Overlay */}
+      <AnimatePresence>
+        {isMaintenanceMode && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.6 }}
+            className="fixed inset-0 z-[100] bg-[#0a0a0a] flex items-center justify-center p-6"
+          >
+            <div className="max-w-md w-full text-center space-y-8">
+              <motion.div
+                initial={{ scale: 0.8, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+                className="flex items-center justify-center"
+              >
+                <div className="w-20 h-20 bg-orange-600/10 rounded-full flex items-center justify-center border border-orange-500/20">
+                  <AlertTriangle className="text-orange-500" size={40} />
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
+                className="space-y-4"
+              >
+                <h1 className="text-3xl font-bold tracking-tight">
+                  Ops! Este site está <br />
+                  <span className="text-orange-500">temporariamente indisponível.</span>
+                </h1>
+                <p className="text-gray-400 leading-relaxed font-light">
+                  Estamos realizando ajustes. Caso precise de atendimento, entre em contato com o suporte.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.6, duration: 0.5 }}
+              >
+                <a
+                  href={SUPPORT_WHATSAPP_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex bg-orange-600 hover:bg-orange-500 text-white font-bold py-5 px-10 rounded-full items-center gap-3 transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-orange-900/20"
+                >
+                  <MessageCircle size={24} />
+                  Falar com o suporte
+                </a>
+              </motion.div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Main Content (Hidden/Locked if maintenance is on, but accessible if off) */}
+      <div className={isMaintenanceMode ? "h-screen overflow-hidden opacity-0 pointer-events-none" : ""}>
       {/* Lightbox */}
       <AnimatePresence>
         {selectedImage && (
@@ -454,6 +516,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      </div>
     </div>
   );
 }
