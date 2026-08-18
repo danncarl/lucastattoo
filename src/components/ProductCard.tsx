@@ -41,27 +41,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   return (
     <div 
       onClick={() => onOpenProductModal(product)}
-      className="group relative bg-neutral-900/90 hover:bg-neutral-900 border border-neutral-800 hover:border-amber-500/50 rounded-2xl sm:rounded-3xl p-3 sm:p-5 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-amber-500/10 cursor-pointer overflow-hidden"
+      className="group relative bg-white border border-neutral-200 hover:border-amber-500 rounded-3xl p-4 flex flex-col justify-between transition-all duration-300 hover:shadow-xl cursor-pointer overflow-hidden"
     >
       {/* Top Badges & Favorite Button */}
-      <div className="flex items-start justify-between gap-2 z-10">
-        <div className="flex flex-wrap gap-1.5">
-          {product.isLaunch && (
-            <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-black uppercase tracking-wider px-2 sm:px-2.5 py-0.5 rounded-full bg-amber-500 text-black shadow-md">
-              <Sparkles className="w-3 h-3" />
-              Lançamento
-            </span>
-          )}
-          {product.isOffer && (
-            <span className="text-[10px] sm:text-xs font-black uppercase tracking-wider px-2 sm:px-2.5 py-0.5 rounded-full bg-red-600 text-white shadow-md">
-              10% OFF Pix
-            </span>
-          )}
-          <span className="text-[10px] sm:text-xs font-bold px-2 py-0.5 rounded-full bg-neutral-800 text-neutral-300 border border-neutral-700">
-            {product.condition}
-          </span>
-        </div>
-
+      <div className="flex items-start justify-between gap-2 z-10 mb-2">
+        <span className="text-[10px] sm:text-xs font-semibold px-2 py-1 rounded-full bg-neutral-100 text-neutral-600 border border-neutral-200">
+          {product.warranty}
+        </span>
         <button
           onClick={(e) => {
             e.stopPropagation();
@@ -69,8 +55,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
           }}
           className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
             isFavorite 
-              ? 'bg-red-500 text-white shadow-md shadow-red-500/30' 
-              : 'bg-neutral-800/80 text-neutral-400 hover:text-white hover:bg-neutral-700'
+              ? 'bg-red-500 text-white' 
+              : 'bg-neutral-100 text-neutral-400 hover:text-red-500'
           }`}
           title="Favoritar"
         >
@@ -79,78 +65,46 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       </div>
 
       {/* Product Image Showcase */}
-      <div className="relative aspect-square w-full my-3 flex items-center justify-center overflow-hidden rounded-xl bg-neutral-950/60 p-2 sm:p-4">
+      <div className="relative aspect-square w-full my-2 flex items-center justify-center overflow-hidden rounded-2xl bg-neutral-50 p-2 sm:p-4">
         <img
           src={product.images[0]}
           alt={product.name}
           className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
           referrerPolicy="no-referrer"
         />
-        {product.batteryHealth && (
-          <div className="absolute bottom-2 left-2 inline-flex items-center gap-1 text-[10px] font-semibold bg-neutral-900/90 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full backdrop-blur-xs">
-            <Battery className="w-3 h-3 text-emerald-400" />
-            <span>Saúde {product.batteryHealth}</span>
-          </div>
-        )}
-      </div>
-
-      {/* Color Dots */}
-      <div className="flex items-center gap-1.5 mb-2">
-        {product.colors.map((c, i) => (
-          <span
-            key={i}
-            className="w-3 h-3 rounded-full border border-neutral-700 shadow-xs"
-            style={{ backgroundColor: c.hex }}
-            title={c.name}
-          />
-        ))}
-        <span className="text-[10px] text-neutral-400 ml-1">
-          {product.variants.map(v => v.storage).join(' • ')}
-        </span>
       </div>
 
       {/* Title & Short Details */}
-      <div className="space-y-1">
-        <h3 className="font-black text-sm sm:text-base text-white group-hover:text-amber-400 transition-colors line-clamp-1">
-          {product.name}
+      <div className="space-y-0.5 mt-2">
+        <h3 className="font-bold text-sm sm:text-base text-neutral-900 group-hover:text-amber-600 transition-colors">
+          <span className="font-semibold text-neutral-500">{product.brand}</span> - {product.name}
         </h3>
-        <p className="text-[11px] text-neutral-400 line-clamp-1">
-          {product.shortDescription}
+        <p className="text-[11px] text-neutral-500 font-medium">
+          {product.colors.map(c => c.name).join(' • ')} • {product.category}
         </p>
       </div>
 
       {/* Price Block */}
-      <div className="mt-3 pt-3 border-t border-neutral-800/80 space-y-1">
-        <div className="flex items-baseline gap-1.5">
-          <span className="text-lg sm:text-xl font-black text-amber-400">
-            {formatCurrency(defaultVariant.pricePix)}
-          </span>
-          <span className="text-[11px] font-bold text-neutral-400 uppercase">no Pix</span>
+      <div className="mt-3 space-y-0.5">
+        <div className="text-xl sm:text-2xl font-black text-neutral-950">
+          {formatCurrency(defaultVariant.pricePix)}
         </div>
-        <p className="text-[11px] text-neutral-400">
-          ou {formatInstallments(defaultVariant.priceCard, 12)}
+        <p className="text-[11px] text-neutral-600 font-semibold">
+          à vista no Pix <span className="text-amber-600">(10% de desconto)</span>
+        </p>
+        <p className="text-[11px] text-neutral-500 font-medium">
+          ou {formatInstallments(defaultVariant.priceCard, 10)} <span className="font-bold text-neutral-900">sem juros</span>
         </p>
       </div>
 
       {/* Action Buttons */}
-      <div className="mt-4 grid grid-cols-2 gap-2">
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onAddToCart(product, defaultVariant.storage, 0);
-          }}
-          className="w-full bg-neutral-800 hover:bg-neutral-700 text-white font-bold py-2 sm:py-2.5 px-2 rounded-xl text-xs flex items-center justify-center gap-1.5 transition-all active:scale-95"
-        >
-          <ShoppingBag className="w-3.5 h-3.5" />
-          <span>Carrinho</span>
-        </button>
-
+      <div className="mt-4">
         <button
           onClick={handleWhatsAppBuy}
-          className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2 sm:py-2.5 px-2 rounded-xl text-xs flex items-center justify-center gap-1.5 shadow-md shadow-emerald-950/40 transition-all active:scale-95"
+          className="w-full bg-amber-500 hover:bg-amber-600 text-neutral-950 font-bold py-3 px-4 rounded-full text-sm flex items-center justify-center gap-2 transition-all active:scale-95 shadow-md shadow-amber-500/20"
         >
-          <MessageCircle className="w-3.5 h-3.5" />
-          <span>Comprar</span>
+          <MessageCircle className="w-4 h-4" />
+          <span>Eu quero</span>
         </button>
       </div>
     </div>

@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { HeroBanner } from './components/HeroBanner';
 import { ProductCard } from './components/ProductCard';
+import { RepairSimulator } from './components/RepairSimulator';
+import { WorkVideo } from './components/WorkVideo';
+import { Footer } from './components/Footer';
 import { initialStoreSettings, mockProducts } from './data/products';
 import { Product } from './types';
 
@@ -29,12 +32,6 @@ export default function App() {
         storeSettings={initialStoreSettings}
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
-        products={mockProducts}
-        onSelectProduct={(p) => console.log('Selected:', p)}
-        onOpenCart={() => console.log('Open Cart')}
-        onOpenFavorites={() => console.log('Open Favorites')}
-        cartCount={cart.length}
-        favoritesCount={favorites.length}
       />
       
       <main className="max-w-7xl mx-auto px-4 py-8">
@@ -55,7 +52,10 @@ export default function App() {
             />
           ))}
         </div>
+        <RepairSimulator storeSettings={initialStoreSettings} />
+        <WorkVideo storeSettings={initialStoreSettings} />
       </main>
+      <Footer storeSettings={initialStoreSettings} />
     </div>
   );
 }

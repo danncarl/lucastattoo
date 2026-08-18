@@ -41,11 +41,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'O topo de linha supremo da Apple com chip A19 Pro e acabamento ultra refinado.',
     fullDescription: 'O iPhone 17 Pro Max redefine a experiência de smartphones de alta performance com a nova câmera telefoto periscópica, acabamento aeroespacial e bateria de ultra duração.',
     highlightSpecs: ['Chip A19 Pro 3nm', 'Tela OLED 6.9" 120Hz ProMotion', 'Câmera Tripla 48MP', 'Bateria até 33h'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/GWNJWC0.png'],
     colors: [
-      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Branco', hex: '#f2f1ed', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://i.imgur.com/GWNJWC0.png' },
+      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://i.imgur.com/GWNJWC0.png' },
+      { name: 'Titânio Branco', hex: '#f2f1ed', image: 'https://i.imgur.com/GWNJWC0.png' }
     ],
     variants: [
       { storage: '256GB', pricePix: 9890, priceCard: 10989, installmentsMax: 12, inStock: true },
@@ -69,10 +69,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Potência máxima e câmeras profissionais em formato compacto.',
     fullDescription: 'Projetado com estrutura de titânio, chip A19 Pro e o novo botão de captura tátil inteligente.',
     highlightSpecs: ['Chip A19 Pro', 'Tela 6.3" ProMotion', 'Triplo sensor 48MP Pro', 'Wi-Fi 7'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/0lAPaiy.png'],
     colors: [
-      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://i.imgur.com/0lAPaiy.png' },
+      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://i.imgur.com/0lAPaiy.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 8790, priceCard: 9766, installmentsMax: 12, inStock: true },
@@ -94,11 +94,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Inovação acessível, design premium e o poder do chip A19.',
     fullDescription: 'A nova geração do iPhone com Dynamic Island avançada e cores vibrantes.',
     highlightSpecs: ['Chip A19 Bionic', 'Tela OLED 6.1"', 'Câmera Dupla 48MP', 'Carregamento Rápido USB-C'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/KTAwsHx.png'],
     colors: [
-      { name: 'Meia-Noite', hex: '#1c2024', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Estelar', hex: '#faf7f2', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Azul Celeste', hex: '#9bbcd4', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Meia-Noite', hex: '#1c2024', image: 'https://i.imgur.com/KTAwsHx.png' },
+      { name: 'Estelar', hex: '#faf7f2', image: 'https://i.imgur.com/KTAwsHx.png' },
+      { name: 'Azul Celeste', hex: '#9bbcd4', image: 'https://i.imgur.com/KTAwsHx.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 6890, priceCard: 7655, installmentsMax: 12, inStock: true },
@@ -119,11 +119,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Câmera com Controle Tátil, Titânio e Chip A18 Pro com Apple Intelligence.',
     fullDescription: 'O iPhone 16 Pro Max traz estrutura leve em titânio, tela de 6.9 polegadas com bordas ultrafinas e câmera fusion de 48MP.',
     highlightSpecs: ['Chip A18 Pro', 'Tela 6.9" ProMotion 120Hz', 'Botão de Controle da Câmera', 'Zoom Óptico 5x'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/miqHNEH.png'],
     colors: [
-      { name: 'Titânio Deserto', hex: '#bfa791', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Titânio Deserto', hex: '#bfa791', image: 'https://i.imgur.com/miqHNEH.png' },
+      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://i.imgur.com/miqHNEH.png' },
+      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://i.imgur.com/miqHNEH.png' }
     ],
     variants: [
       { storage: '256GB', pricePix: 8590, priceCard: 9544, installmentsMax: 12, inStock: true },
@@ -146,10 +146,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Desempenho pro em 6.3 polegadas com chip A18 Pro.',
     fullDescription: 'Câmera fusion de 48MP, nova lente ultra-angular de 48MP e gravação 4K Dolby Vision em 120 fps.',
     highlightSpecs: ['Chip A18 Pro', 'Tela 6.3" ProMotion', 'Gravação 4K 120fps', 'Bateria aprimorada'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/JYnX0Yr.png'],
     colors: [
-      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Deserto', hex: '#bfa791', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://i.imgur.com/JYnX0Yr.png' },
+      { name: 'Titânio Deserto', hex: '#bfa791', image: 'https://i.imgur.com/JYnX0Yr.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 7490, priceCard: 8322, installmentsMax: 12, inStock: true },
@@ -171,11 +171,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Câmeras alinhadas verticalmente, Controle da Câmera e Botão de Ação.',
     fullDescription: 'Com o chip A18 ultra veloz, o novo iPhone 16 permite fotografia macro, fotos espaciais e bateria excelente.',
     highlightSpecs: ['Chip A18', 'Botão de Ação + Botão de Câmera', 'Tela Super Retina XDR 6.1"', 'USB-C'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/p39rKp3.png'],
     colors: [
-      { name: 'Rosa', hex: '#f0adb9', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Verde-Acizentado', hex: '#bfe1d9', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Preto', hex: '#222222', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Rosa', hex: '#f0adb9', image: 'https://i.imgur.com/p39rKp3.png' },
+      { name: 'Verde-Acizentado', hex: '#bfe1d9', image: 'https://i.imgur.com/p39rKp3.png' },
+      { name: 'Preto', hex: '#222222', image: 'https://i.imgur.com/p39rKp3.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 5990, priceCard: 6655, installmentsMax: 12, inStock: true },
@@ -197,10 +197,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Design em titânio, chip A17 Pro e zoom óptico de 5x.',
     fullDescription: 'Aparelho seminovo em estado de novo, 100% original, testado e higienizado com saúde de bateria premium.',
     highlightSpecs: ['Titânio Aeroespacial', 'Chip A17 Pro', 'Zoom Óptico 5x', 'Conector USB-C'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/RtbWuej.png'],
     colors: [
-      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Azul', hex: '#37475a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://i.imgur.com/RtbWuej.png' },
+      { name: 'Titânio Azul', hex: '#37475a', image: 'https://i.imgur.com/RtbWuej.png' }
     ],
     variants: [
       { storage: '256GB', pricePix: 6290, priceCard: 6988, installmentsMax: 12, inStock: true },
@@ -222,10 +222,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Titânio leve, Botão de Ação e chip A17 Pro em 6.1".',
     fullDescription: 'O primeiro iPhone com acabamento em titânio e porta USB-C.',
     highlightSpecs: ['Chip A17 Pro', 'Tela 6.1" 120Hz', 'Câmera 48MP', 'Botão de Ação'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/wPJYiPC.png'],
     colors: [
-      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Titânio Natural', hex: '#8c867a', image: 'https://i.imgur.com/wPJYiPC.png' },
+      { name: 'Titânio Preto', hex: '#2c2b2a', image: 'https://i.imgur.com/wPJYiPC.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 5390, priceCard: 5988, installmentsMax: 12, inStock: true },
@@ -246,11 +246,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Dynamic Island, câmera de 48MP e conector USB-C universal.',
     fullDescription: 'Excelente custo-benefício com design moderno de vidro colorido por infusão e Dynamic Island.',
     highlightSpecs: ['Dynamic Island', 'Câmera Principal 48MP', 'USB-C', 'Chip A16 Bionic'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/rOXXDoz.png'],
     colors: [
-      { name: 'Preto', hex: '#2d2d2d', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Azul', hex: '#d6e2e9', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Rosa', hex: '#fed6e3', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Preto', hex: '#2d2d2d', image: 'https://i.imgur.com/rOXXDoz.png' },
+      { name: 'Azul', hex: '#d6e2e9', image: 'https://i.imgur.com/rOXXDoz.png' },
+      { name: 'Rosa', hex: '#fed6e3', image: 'https://i.imgur.com/rOXXDoz.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 4290, priceCard: 4766, installmentsMax: 12, inStock: true },
@@ -272,11 +272,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'O pioneiro com Dynamic Island, tela Always-On e câmera de 48MP.',
     fullDescription: 'Aparelho icônico com aço inoxidável cirúrgico e bateria para o dia inteiro.',
     highlightSpecs: ['Dynamic Island', 'Aço Cirúrgico', 'Chip A16 Bionic', 'Câmera 48MP Pro'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/aOZGsBF.png'],
     colors: [
-      { name: 'Roxo-Profundo', hex: '#4a3b52', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Preto-Espacial', hex: '#22201e', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Dourado', hex: '#fae7cf', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Roxo-Profundo', hex: '#4a3b52', image: 'https://i.imgur.com/aOZGsBF.png' },
+      { name: 'Preto-Espacial', hex: '#22201e', image: 'https://i.imgur.com/aOZGsBF.png' },
+      { name: 'Dourado', hex: '#fae7cf', image: 'https://i.imgur.com/aOZGsBF.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 4890, priceCard: 5433, installmentsMax: 12, inStock: true },
@@ -298,10 +298,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Câmera Pro de 48MP, Dynamic Island e tela de 120Hz em 6.1".',
     fullDescription: 'Design elegante com bordas em aço inoxidável e excelente conjunto de câmeras.',
     highlightSpecs: ['Dynamic Island', 'Tela Always-On ProMotion', 'Chip A16 Bionic', '48MP Pro'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/7i3zdOU.png'],
     colors: [
-      { name: 'Roxo-Profundo', hex: '#4a3b52', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Preto-Espacial', hex: '#22201e', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Roxo-Profundo', hex: '#4a3b52', image: 'https://i.imgur.com/7i3zdOU.png' },
+      { name: 'Preto-Espacial', hex: '#22201e', image: 'https://i.imgur.com/7i3zdOU.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 4290, priceCard: 4766, installmentsMax: 12, inStock: true },
@@ -322,11 +322,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Desempenho fluido com chip A15 Bionic e modo Ação para vídeos.',
     fullDescription: 'Excelente escolha para o dia a dia, com bateria duradoura e fotos nítidas com pouca luz.',
     highlightSpecs: ['Chip A15 Bionic 5-core GPU', 'Modo Cinema 4K', 'Modo Ação', 'Bateria para o dia todo'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/meNTkT5.png'],
     colors: [
-      { name: 'Meia-Noite', hex: '#1c2024', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Estelar', hex: '#faf7f2', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Roxo', hex: '#e3d9e8', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Meia-Noite', hex: '#1c2024', image: 'https://i.imgur.com/meNTkT5.png' },
+      { name: 'Estelar', hex: '#faf7f2', image: 'https://i.imgur.com/meNTkT5.png' },
+      { name: 'Roxo', hex: '#e3d9e8', image: 'https://i.imgur.com/meNTkT5.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 3490, priceCard: 3877, installmentsMax: 12, inStock: true },
@@ -348,11 +348,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Lendária duração de bateria, tela ProMotion 120Hz e modo Macro.',
     fullDescription: 'Um dos maiores sucessos da Apple. Bateria gigantesca e câmeras profissionais com gravação ProRes.',
     highlightSpecs: ['Bateria Ultra Duradoura', 'Tela 6.7" 120Hz ProMotion', 'Modo Macro', 'Chip A15 Bionic'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/NtFpRh9.png'],
     colors: [
-      { name: 'Azul Sierra', hex: '#9bb5ce', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Grafite', hex: '#41403c', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Dourado', hex: '#f9e5c9', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Azul Sierra', hex: '#9bb5ce', image: 'https://i.imgur.com/NtFpRh9.png' },
+      { name: 'Grafite', hex: '#41403c', image: 'https://i.imgur.com/NtFpRh9.png' },
+      { name: 'Dourado', hex: '#f9e5c9', image: 'https://i.imgur.com/NtFpRh9.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 3990, priceCard: 4433, installmentsMax: 12, inStock: true },
@@ -374,10 +374,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Tela 120Hz ProMotion e câmeras triplas em corpo compacto de aço.',
     fullDescription: 'Excelente escolha para criadores de conteúdo que buscam tamanho compacto e potência Pro.',
     highlightSpecs: ['Tela 120Hz', 'Modo Cinema', 'Telefoto 3x', 'Aço Cirúrgico'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/tSwQwn4.png'],
     colors: [
-      { name: 'Azul Sierra', hex: '#9bb5ce', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Grafite', hex: '#41403c', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Azul Sierra', hex: '#9bb5ce', image: 'https://i.imgur.com/tSwQwn4.png' },
+      { name: 'Grafite', hex: '#41403c', image: 'https://i.imgur.com/tSwQwn4.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 3490, priceCard: 3877, installmentsMax: 12, inStock: true },
@@ -398,12 +398,12 @@ export const mockProducts: Product[] = [
     shortDescription: 'O maior campeão de vendas: excelente autonomia, modo cinema e 128GB de fábrica.',
     fullDescription: 'O iPhone com o melhor custo-benefício do Brasil. Excelente desempenho, ótima câmera e bateria muito resistente.',
     highlightSpecs: ['Chip A15 Bionic', 'Câmeras Diagonais 12MP', 'Modo Cinema', '128GB Base'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/NjKG0QU.png'],
     colors: [
-      { name: 'Meia-Noite', hex: '#1c2024', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Estelar', hex: '#faf7f2', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Rosa', hex: '#fae3e4', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Azul', hex: '#437397', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Meia-Noite', hex: '#1c2024', image: 'https://i.imgur.com/NjKG0QU.png' },
+      { name: 'Estelar', hex: '#faf7f2', image: 'https://i.imgur.com/NjKG0QU.png' },
+      { name: 'Rosa', hex: '#fae3e4', image: 'https://i.imgur.com/NjKG0QU.png' },
+      { name: 'Azul', hex: '#437397', image: 'https://i.imgur.com/NjKG0QU.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 2790, priceCard: 3100, installmentsMax: 12, inStock: true },
@@ -426,10 +426,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Tela imensa de 6.7", conexão 5G e estabilização de sensor.',
     fullDescription: 'O primeiro iPhone com laterais retas e tela gigante de 6.7 polegadas na era 5G.',
     highlightSpecs: ['Tela OLED 6.7"', 'Conexão 5G Ultra Rápida', 'Sensor Shift OIS', 'Ceramic Shield'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/87Gr9ch.png'],
     colors: [
-      { name: 'Azul Pacífico', hex: '#2c4353', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Grafite', hex: '#41403c', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Azul Pacífico', hex: '#2c4353', image: 'https://i.imgur.com/87Gr9ch.png' },
+      { name: 'Grafite', hex: '#41403c', image: 'https://i.imgur.com/87Gr9ch.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 3190, priceCard: 3544, installmentsMax: 12, inStock: true },
@@ -450,10 +450,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Design flat elegante, aço cirúrgico e câmera tripla com scanner LiDAR.',
     fullDescription: 'Sensor LiDAR para retratos noturnos rápidos e acabamento premium.',
     highlightSpecs: ['Scanner LiDAR', 'Aço Cirúrgico', 'Chip A14 Bionic', '5G Integrado'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/zfVCObS.png'],
     colors: [
-      { name: 'Azul Pacífico', hex: '#2c4353', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Grafite', hex: '#41403c', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Azul Pacífico', hex: '#2c4353', image: 'https://i.imgur.com/zfVCObS.png' },
+      { name: 'Grafite', hex: '#41403c', image: 'https://i.imgur.com/zfVCObS.png' }
     ],
     variants: [
       { storage: '128GB', pricePix: 2790, priceCard: 3100, installmentsMax: 12, inStock: true },
@@ -474,11 +474,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'Tela OLED Super Retina XDR, laterais retas e conectividade 5G.',
     fullDescription: 'Entrada na era 5G com tela OLED de cores vívidas e design icônico.',
     highlightSpecs: ['Tela OLED Super Retina', 'Conexão 5G', 'MagSafe', 'Chip A14 Bionic'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/YQyMrPH.png'],
     colors: [
-      { name: 'Preto', hex: '#1e2225', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Branco', hex: '#f8f8f6', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Azul', hex: '#023354', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Preto', hex: '#1e2225', image: 'https://i.imgur.com/YQyMrPH.png' },
+      { name: 'Branco', hex: '#f8f8f6', image: 'https://i.imgur.com/YQyMrPH.png' },
+      { name: 'Azul', hex: '#023354', image: 'https://i.imgur.com/YQyMrPH.png' }
     ],
     variants: [
       { storage: '64GB', pricePix: 2190, priceCard: 2433, installmentsMax: 12, inStock: true },
@@ -500,11 +500,11 @@ export const mockProducts: Product[] = [
     shortDescription: 'A primeira câmera tripla da Apple com modo noturno estelar e tela OLED de 6.5".',
     fullDescription: 'Excelente tela OLED, câmeras triplas versáteis e acabamento fosco elegante.',
     highlightSpecs: ['Tela OLED 6.5"', 'Câmera Tripla 12MP', 'Modo Noite Impecável', 'Chip A13 Bionic'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/PprpZbZ.png'],
     colors: [
-      { name: 'Verde Meia-Noite', hex: '#4e5851', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Cinza-Espacial', hex: '#4c4b49', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Dourado', hex: '#fae7cf', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Verde Meia-Noite', hex: '#4e5851', image: 'https://i.imgur.com/PprpZbZ.png' },
+      { name: 'Cinza-Espacial', hex: '#4c4b49', image: 'https://i.imgur.com/PprpZbZ.png' },
+      { name: 'Dourado', hex: '#fae7cf', image: 'https://i.imgur.com/PprpZbZ.png' }
     ],
     variants: [
       { storage: '64GB', pricePix: 2390, priceCard: 2655, installmentsMax: 12, inStock: true },
@@ -525,10 +525,10 @@ export const mockProducts: Product[] = [
     shortDescription: 'Câmera tripla e tela OLED em tamanho compacto de 5.8 polegadas.',
     fullDescription: 'Pegada anatômica impecável com conjunto triplo de lentes e traseira em vidro fosco.',
     highlightSpecs: ['Tamanho Anatômico 5.8"', 'Tela Super Retina XDR OLED', 'Câmera Tripla', 'Vidro Fosco'],
-    images: ['https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/cXMnLIV.png'],
     colors: [
-      { name: 'Verde Meia-Noite', hex: '#4e5851', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Cinza-Espacial', hex: '#4c4b49', image: 'https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Verde Meia-Noite', hex: '#4e5851', image: 'https://i.imgur.com/cXMnLIV.png' },
+      { name: 'Cinza-Espacial', hex: '#4c4b49', image: 'https://i.imgur.com/cXMnLIV.png' }
     ],
     variants: [
       { storage: '64GB', pricePix: 2090, priceCard: 2322, installmentsMax: 12, inStock: true },
@@ -549,12 +549,12 @@ export const mockProducts: Product[] = [
     shortDescription: 'A porta de entrada ideal para o ecossistema Apple com câmeras duplas e bateria durável.',
     fullDescription: 'O smartphone mais popular do Brasil. Excelente para redes sociais, gravação de vídeos 4K e jogos.',
     highlightSpecs: ['Chip A13 Bionic', 'Câmera Dupla com Modo Noturno', 'Gravação 4K nas 3 Câmeras', 'Face ID Rápido'],
-    images: ['https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80'],
+    images: ['https://i.imgur.com/JTYfg2e.png'],
     colors: [
-      { name: 'Preto', hex: '#1e2225', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Branco', hex: '#f8f8f6', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Vermelho (PRODUCT)RED', hex: '#d92b3a', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' },
-      { name: 'Roxo', hex: '#d1cdde', image: 'https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80' }
+      { name: 'Preto', hex: '#1e2225', image: 'https://i.imgur.com/JTYfg2e.png' },
+      { name: 'Branco', hex: '#f8f8f6', image: 'https://i.imgur.com/JTYfg2e.png' },
+      { name: 'Vermelho (PRODUCT)RED', hex: '#d92b3a', image: 'https://i.imgur.com/JTYfg2e.png' },
+      { name: 'Roxo', hex: '#d1cdde', image: 'https://i.imgur.com/JTYfg2e.png' }
     ],
     variants: [
       { storage: '64GB', pricePix: 1690, priceCard: 1877, installmentsMax: 12, inStock: true },
