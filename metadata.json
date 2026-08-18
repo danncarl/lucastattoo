@@ -1,5 +1,8 @@
 {
-  "name": "Tatuador Lucas | Projetos Exclusivos",
-  "description": "Landing page premium para o artista tatuador Lucas. Agende sua consulta gratuita e transforme sua ideia em arte.",
-  "requestFramePermissions": []
+  "name": "Magnata Cell | iPhones & Assistência Técnica",
+  "description": "Loja virtual especializada na linha completa de iPhones Apple (do 11 ao 17 Pro Max) novos e seminovos com garantia, simulador de trade-in, assistência técnica e checkout via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
